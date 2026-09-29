@@ -1,5 +1,15 @@
 {
   "name": "mehdi-website",
   "main": "worker.js",
-  "compatibility_date": "2026-09-28"
+  "compatibility_date": "2026-09-28",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "1ecafef0d6974a2b8ea44623cbff5237"
+    }
+  ]
 }
